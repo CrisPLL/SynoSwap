@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+.ancho{
+    max-width: 1200px;
+    margin: auto;
+    /*border: 1px rgb(0, 0, 0) solid*/
+    /*border: 1px red solid;*/
+}
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: normal;
+    color: #1ECCF7;
+}
+.contenedornivel1{
+     height: 900px;
+     padding: 30px;
+     
+}
+.izquierda{
+    float: left;
+    border: 1px #333 solid;
+    height: 400px;
+    width: 700px;
+    padding: 30px;
+    margin-right: 20px;
+    background-color: white;
+}
+.derecha{
+    float: left;
+    border: 1px #333 solid;
+    height: 40  0px;
+    padding: 30px;
+    width: 400px;
+    background-color: white;
+}
+#labeletras{
+    font-weight: bold;
+    font-size: 20px;
+}
+.negritas{
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+    color: #800000;
+}
+.formato{
+    border: 0;
+    width: 350px;
+    height: 40px;
+    box-shadow: 0px 0px 10px #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pxs;
+    padding-left: 10px;
+}
+.btnpuntaje{
+    border: 0;
+    background-color: #0E6378;
+    border-radius: 40px;
+    color: white;
+    height: 40px;
+    width: 150px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+.btnpuntaje:hover{
+    background-color: black;
+}
+
+.ancho4{
+    background-color: #07303a;
+    max-width: 1300px;
+    margin: auto;
+    border: 10px rgb(0, 248, 248) solid
+    /*border: 1px red solid;*/
+    
+
+}
